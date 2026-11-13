@@ -23,6 +23,6 @@ run: $(TARGET)
 	./$(TARGET)
 
 clean:
-	rm -f packetsniff packetsniff.exe *.o
+	rm -rf packetsniff packetsniff.exe *.o *.dSYM
 
 .PHONY: all run clean
