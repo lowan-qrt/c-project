@@ -1,0 +1,13 @@
+# Reglages de l'editeur
+.idea/
+.vscode/
+
+# Fichiers produits par la compilation
+*.o
+*.exe
+packetsniff
+*.dSYM/
+
+# Captures locales
+*.pcap
+!tests/exemple.pcap
